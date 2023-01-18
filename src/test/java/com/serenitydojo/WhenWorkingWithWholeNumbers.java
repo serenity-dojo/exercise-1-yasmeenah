@@ -8,7 +8,7 @@ public class WhenWorkingWithWholeNumbers {
     @Test
     public void addingNumbersTogether(){
                 int initialYear = 1985;
-        int targetYear = 0;
+        int targetYear;
         int timeJump = 30;
 
 
@@ -16,6 +16,16 @@ public class WhenWorkingWithWholeNumbers {
 
        assertThat(targetYear, equalTo(2015));
 
+
+
+    }
+    @Test
+    public void WeightConvertertoKg(){
+        float Kg = 25.5F;
+        float Pound;
+        Pound = Kg * 2.204F;
+
+        System.out.println("weight in Pounds =" + Pound);
 
 
     }
